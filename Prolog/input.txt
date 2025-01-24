@@ -1,0 +1,8 @@
+sortuj([3, 1, 4, 1, 5, 9], Posortowana). % oczekiwane Posortowana = 9,5,4,3,1,1
+czy_graficzny([3, 3, 2, 2, 2, 1], Odp). % oczekiwane N
+czy_graficzny([5, 1, 1, 1, 1, 1], Odp). % oczekiwane T
+czy_spojny([1,0,1], Odp). % oczekiwane N
+czy_spojny([1,1,1], Odp). % oczekiwane N
+czy_spojny([1,1,1,1], Odp). % oczekiwane N
+czy_spojny([1,2,2,1,2], Odp). % oczekiwane T
+czy_spojny([3,3,3,0,3], Odp). % oczekiwane N
